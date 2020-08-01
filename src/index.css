@@ -1,11 +1,12 @@
 * {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased !important;
+  font-family: 'Press Start 2P', sans-serif, 'roboto';
 }
 
 :root {
-  --primary: #2A7AE4;
-  --black: #000000;
+  --primary: #0adbbf;
+  --black: #201b2d;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
   --grayMedium: #e5e5e5; 
@@ -23,3 +24,9 @@ body {
 a {
   color: inherit;
 } 
+
+#root {
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
+}
