@@ -102,7 +102,7 @@ export const BannerMainContainer = styled.section`
 
 export const WatchButton = styled.button`
   -webkit-font-smoothing: antialiased !important;
-  font-family: 'Press Start 2P', cursive, sans-serif;
+  font-family: 'Roboto', cursive, sans-serif;
   box-sizing: border-box;
   cursor: pointer;
   padding: 16px 24px;
