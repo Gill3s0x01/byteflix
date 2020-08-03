@@ -36,7 +36,7 @@ ContentAreaContainer.Category = styled.h1`
   display: inline-block; 
   padding: 25px;
   line-height: 1;
-  border-radius: 4px;
+  border-radius: 40px;
   @media (max-width: 800px) {
     display: none;
     font-size: 18px;
@@ -96,7 +96,7 @@ export const BannerMainContainer = styled.section`
 `;
 
 export const WatchButton = styled.button`
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   box-sizing: border-box;
   cursor: pointer;
   padding: 16px 24px;
