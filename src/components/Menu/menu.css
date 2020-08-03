@@ -48,7 +48,7 @@ body {
     right: 0;
     bottom: 0;
     background: var(--primary);
-    border-radius: 6;
+    border-radius: 40;
     border: 0;
     text-align: center;
   }
